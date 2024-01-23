@@ -2,14 +2,15 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   padding: 8px 0;
 `;
 
 export const Checkbox = styled.input`
-  width: 24px;
-  height: 24px;
+  /* width: 24px;
+  height: 24px; */
   cursor: pointer;
 `;
 

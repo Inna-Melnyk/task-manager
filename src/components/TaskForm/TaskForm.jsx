@@ -3,7 +3,7 @@ import { Form, Input} from "./TaskForm.styled";
 import { Button } from "components/Button/Button.styled";
 // import { useSearchParams } from "react-router-dom";
 import { useDispatch } from 'react-redux';
-import { addTask } from "../../redux/tasks/action";
+import { addTask } from "../../redux/tasks/taskOperations";
 
 
 export const TaskForm = () => {
@@ -16,9 +16,11 @@ export const TaskForm = () => {
 //   const nextParams = name !== '' ? { name } : {};
 //   setSearchParams(nextParams);
 //   };
+
   
     const dispatch = useDispatch();
 
+   
 
   const handleSubmit = event => {
     event.preventDefault();

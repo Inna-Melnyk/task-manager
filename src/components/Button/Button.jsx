@@ -6,8 +6,7 @@ export const Button = ({
   children,
   ...otherProps
 }) => {
-
-
+  
   return (
     <Button selected type={type} {...otherProps}>
       {children}
